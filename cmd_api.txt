@@ -1,4 +1,4 @@
-uvicorn api_test:app --reload 
+uvicorn apis:app --reload 
 
 curl -X POST -H "Content-Type: application/json" -d "{\"ver\": 1, \"name\": \"hoge\" , \"opt\": 11}" http://localhost:8000/hello
 
