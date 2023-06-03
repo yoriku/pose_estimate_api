@@ -1,0 +1,8 @@
+numpy
+mediapipe
+pandas
+opencv-python
+matplotlib
+fastapi
+uvicorn[standard]
+python-multipart

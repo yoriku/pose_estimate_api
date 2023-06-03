@@ -1,0 +1,9 @@
+uvicorn api_test:app --reload 
+
+curl -X POST -H "Content-Type: application/json" -d "{\"ver\": 1, \"name\": \"hoge\" , \"opt\": 11}" http://localhost:8000/hello
+
+curl -F "User={\"name\":\"John\"}" -F image=@img/both_up.jpg -X POST "http://localhost:8000/uploadfile/"
+
+curl -X POST -F file=@img/both_up.jpg http://localhost:8000/api/
+
+cd OneDrive/デスクトップ/mediapipe
