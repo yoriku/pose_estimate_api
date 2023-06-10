@@ -1,5 +1,9 @@
 # pose estimate apis
 
+# Warning
+Dont use japanese charactristic in PATH
+You have to use python version over 3.10.x
+
 ## Getting Starts
 1 Install python library
 
